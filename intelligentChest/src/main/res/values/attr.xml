@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="icon" format="reference"></attr>
+    <attr name="text" format="string"></attr>
+    <attr name="text_size" format="dimension"></attr>
+    <attr name="color" format="color"></attr>
+
+    <declare-styleable name="BottomBar">
+        <attr name="icon"></attr>
+        <attr name="text"></attr>
+        <attr name="text_size"></attr>
+        <attr name="color"></attr>
+    </declare-styleable>
+
+</resources>

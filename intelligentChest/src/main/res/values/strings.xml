@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智慧衣柜</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 注册和登陆界面共用值 -->
+    <string name="accountName">账  号</string>
+    <string name="password">密  码</string>
+    <string name="accountName_hint">请输入您的账号</string>
+    <string name="password_hint">请输入您的密码</string>
+    <string name="finish">完    成</string>
+
+    <!-- 注册界面 -->
+    <string name="register_title">注      册</string>
+    <string name="register_second_password">再次确定密码</string>
+    <string name="register_second_password_hint">请再次输入密码</string>
+    <string name="register_chest_id">衣柜编号</string>
+    <string name="register_chest_id_hint">请输入衣柜编号</string>
+
+    <!-- 登陆界面 -->
+    <string name="login_title">登    陆</string>
+    <string name="login_want_register">注册账号</string>
+    <string name="login_change_password">修改密码</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="function_chest">衣柜</string>
+    <string name="function_match">天气</string>
+    <string name="function_mine">我的</string>
+
+    <!-- 忘记密码界面 -->
+    <string name="forget_password_title">忘记密码</string>
+
+    <!-- 修改密码界面 -->
+
+
+    <!-- 功能底部栏 -->
+    <string name="function_bottom_bar_chest">衣柜</string>
+    <string name="function_bottom_bar_match">天气</string>
+    <string name="function_bottom_bar_mine">我的</string>
+
+    <!-- 衣柜Fragment -->
+    <string name="take">取出衣服</string>
+    <string name="clothes">衣服    X件</string>
+    <string name="pants">裤子    X件</string>
+    <string name="see">查看所有衣物</string>
+
+    <!-- 我的Fragment -->
+    <string name="fashionistas_mall">时尚达人商城</string>
+    <string name="check_version">版本更新</string>
+    <string name="feedback">意见反馈</string>
+    <string name="about_us">关于我们</string>
+
+    <!-- ClothesDetailsInfoActivity-->
+    <string name="clo_details_info_title_bar">智慧衣柜</string>
+    <string name="clo_details_info_take">取出衣物</string>
+    <string name="modify_permission">修改权限</string>
+
+</resources>

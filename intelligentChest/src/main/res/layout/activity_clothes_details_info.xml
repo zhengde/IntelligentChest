@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/activity_clo_details_info_title_bar"/>
+
+    <ImageView
+        android:id="@+id/id_img_clothes"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:src="@drawable/clo_text3"
+        android:paddingTop="25dp"
+        />
+
+        <!--android:src="@drawable/kuzi2"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/id_tv_sex"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/clothes_details_tv_bg"
+                android:clickable="true"
+                android:text="性别:女"
+                android:gravity="center"
+                />
+
+                <!--android:text="性别:男"-->
+            <TextView
+                android:id="@+id/id_tv_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/clothes_details_tv_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="尺码:M"
+                />
+                <!--android:text="尺码:XL"-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/id_tv_brand"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="品牌:真维斯"
+                />
+                <!--android:text="品牌:Adidas"-->
+            <TextView
+                android:id="@+id/id_tv_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="衣服类型:T袖"
+                />
+                <!--android:text="衣服类型:布裤"-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/id_tv_wash_method"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="清洗方式:手洗机洗均可"/>
+
+            <Button
+                android:id="@+id/id_but_take"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/clo_details_info_activity_but_click"
+                android:text="@string/clo_details_info_take"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

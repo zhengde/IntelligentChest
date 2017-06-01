@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bottom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/function_bottom_bar_bg"
+        android:orientation="horizontal" >
+
+        <com.intelligent_chest.view.FunctionView
+            android:id="@+id/id_indicator_chest"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            bottom:icon="@drawable/function_activity_chest"
+            bottom:text="@string/function_bottom_bar_chest"
+            bottom:text_size="12sp"
+            bottom:color="#ff45c01a" />
+
+        <com.intelligent_chest.view.FunctionView
+            android:id="@+id/id_indicator_match"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            bottom:icon="@drawable/function_activity_match"
+            bottom:text="@string/function_bottom_bar_match"
+            bottom:text_size="12sp"
+            bottom:color="#ff45c01a" />
+
+        <com.intelligent_chest.view.FunctionView
+            android:id="@+id/id_indicator_mine"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            bottom:icon="@drawable/function_activity_mine"
+            bottom:text="@string/function_bottom_bar_mine"
+            bottom:text_size="12sp"
+            bottom:color="#ff45c01a" />
+    </LinearLayout>
+</LinearLayout>

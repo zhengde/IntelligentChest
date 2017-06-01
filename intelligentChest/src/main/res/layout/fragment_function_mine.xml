@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/mine_fragment_img_bg_portrail"
+                android:gravity="center">
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/id_img_portrait"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:src="@drawable/mine_fragment_default_portrait64"/>-->
+            <!---->
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/id_layout_fashionistas_mall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_fragment_division_line"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="15dp"
+                        android:src="@drawable/mine_fragment_fashionistas_mall"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:gravity="center|start"
+                        android:text="@string/fashionistas_mall"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffa3a3a3"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/id_layout_check_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_fragment_division_line"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="15dp"
+                        android:src="@drawable/mine_fragment_check_version"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:gravity="center|start"
+                        android:text="@string/check_version"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffa3a3a3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/id_layout_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_fragment_division_line"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="15dp"
+                        android:src="@drawable/mine_fragment_feedback"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:gravity="center|start"
+                        android:text="@string/feedback"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffa3a3a3"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/id_layout_permission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_fragment_division_line"
+                    android:clickable="true"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="15dp"
+                        android:src="@drawable/mine_fragment_permission"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_toEndOf="@+id/id_img_permission"
+                        android:layout_toRightOf="@+id/id_img_permission"
+                        android:gravity="center|start"
+                        android:text="@string/modify_permission"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffa3a3a3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/id_layout_about_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_fragment_division_line"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="15dp"
+                        android:src="@drawable/mine_fragment_about_us"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:gravity="center|start"
+                        android:text="@string/about_us"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffa3a3a3"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
